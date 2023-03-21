@@ -1,0 +1,70 @@
+Id,Title,Precondition,STR,AR,ER,Severity,Priority,Environment,Attachment
+1.,It is not redirected to the main page after clicking on home page icon in the header of the site,"1. Open site www.saucedemo.com
+2. Login as standard_user","1. Click on any product card
+2. Click on home page icon in header",It is not redicrected to the main page after clicking on hope page icon in the header of the site,Redirected to the main page after clicking on the home page icon,Medium,Normal,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://i.imgur.com/XXFa8i5.png
+2.,The drop-down list is not opened on the main page after clicking on the drop-down list button ,"1. Open site www.saucedemo.com
+2. Login as standard_user",1. Click on drop-down button,The drop-down list is not opened on the main page after clicking on the drop-down list button ,The drop-down list is opened after clicking on the drop-down menu button ,Medium,Normal,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://i.imgur.com/t0PfmyO.png
+3.,"The quantity of products cannot be changed on the cart page
+after adding an item to the shopping cart","1. Open site www.saucedemo.com
+2. Login as standard_user","1. Click on Sauce Labs Backpack product card
+2. Click on add to cart button
+3. Click on quantity field","The quantity of products cannot be changed on the cart page
+after adding an item to the shopping cart",User can change the quantity of product after adding item to cart,Major,Normal,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://i.imgur.com/q93cnus.png
+4.,The footer block doesnt stretch to full length on the product card when resizing the page,"1. Open site www.saucedemo.com
+2. Login as standard_user","1. Click on Sauce Labs Backpack product card
+2. Resize page to 800x600
+3. Scroll down the page
+4. Pay attention to the footer",The footer block doesnt stretch to full length on the product card when resizing the page,The footer block is stretched to the full screen when the display size is changing,Low,Low,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://i.imgur.com/e1Tva1U.png
+5.,It is possible to place an empty order through the cart menu,"1. Open site www.saucedemo.com
+2. Login as standard_user","1. Go to the cart page
+2. Click on button CHECKOUT
+3. Fiel the form correct data
+4. Click on the button FINISH
+5. Pay attention to the pop-up message",It is possible to place an empty order through the cart menu,The system is not allowed to place an order without item,Major,High,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit","1. https://i.imgur.com/dlF5l1L.png
+2. https://i.imgur.com/Rl80wJQ.png
+3. https://i.imgur.com/QNdqqqP.png
+4. https://i.imgur.com/uPGSyYy.png"
+6.,Remove button on the main page doesn't change status to Add to cart after pressing the button Reset App State,"1. Open site www.saucedemo.com
+2. Login as standard_user","1. Click on Add to cart button on any product card
+2. Click on Reset app state
+3. Pay attention to the Remove button",Remove button on the main page doesn't change status to Add to cart after pressing the button Reset App State,The Remove button is changed state to Add to cart after pressing the button Reset app state,Medium,Normal,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://i.imgur.com/nBkLGvm.png
+7.,Personal data form takes invalid values on the checkout page,"1. Open site www.saucedemo.com
+2. Login as standard_user","1. Click on Add to cart button on Sauce Labs Backpack product card
+2. Go to cart and click on Checkout button
+3. In First Name field enter 123456
+In Last Name field enter @!#$%^&*
+In Zip/Postal Code field enter ASDFG
+4. Press Continue
+5. Press Finish
+6. Pay attention to the pop-up message",Personal data form takes invalid values on the checkout page,Each fields of personal data form has a data validation,Major,High,"Windows 10
+Google Chrome
+version 102.0.5005.115
+64 bit",https://prnt.sc/LO4-wICh_sCu
+8.,The increased rate is not displayed on the product card in the p.m. section after promotion activation ,"1. AppShops is opened
+2. User is logged in
+3. Promotion for TestShop is activated
+4. Product Test TV added to p.m. section","1. Go to TestShop page
+2. Scroll down the page to the tariff section
+3. Pay attention to the rate for TV
+4. Go to p.m. section
+5. Pay attention to the rate for Test TV",The increased rate is not displayed on the product card in the p.m. section after promotion activation ,The increased rate is displayed on the product card after promotion activation,Major,High,"AppShops version 2.0.6
+Android 12","https://i.imgur.com/5i7uNRj.png
+https://i.imgur.com/o40hk1c.png"
